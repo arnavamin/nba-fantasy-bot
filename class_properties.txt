@@ -1,0 +1,32 @@
+class User
+
+team_name: str
+players: list[Player]
+record: dict {'Win': 0, 'Loss': 0}
+scores: dict{'W1': 0, 'W2': 0, ...}
+
+
+
+class Player
+
+player_id: int
+first_name: str
+last_name: str
+team: str
+position: str
+jersey_number: str
+height: str
+weight: str
+college: str/None
+country: str/None
+
+# stats (int)
+
+points
+rebounds (can split to oreb and dreb for point bias)
+assists
+blocks
+steals
+turnovers
+fouls
+
