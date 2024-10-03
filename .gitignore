@@ -1,2 +1,3 @@
 *.pickle
 keys.txt
+.env
